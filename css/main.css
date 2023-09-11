@@ -102,6 +102,7 @@ header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 header nav ul {
@@ -155,6 +156,7 @@ aside {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  flex-flow: row wrap;
 }
 
 /* - Reviews - */
@@ -187,6 +189,7 @@ aside {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  flex-flow: row wrap;
 }
 
 /* ==========================================================================
