@@ -98,6 +98,7 @@ body {
   font-size: 1em;
   color: #e2e3ed;
   text-align: left;
+  background-color: #202322;
 }
 
 ul,
@@ -116,6 +117,7 @@ h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 1.875em;
+  margin: 0;
 }
 
 h3,
@@ -313,7 +315,6 @@ input[type="button"] {
 .features .features-items {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
   flex-flow: row wrap;
 }
 
@@ -598,6 +599,7 @@ input[type="button"] {
   .reviews h3 {
     width: 75%;
     margin: 0;
+    padding-left: 16px;
   }
 
   /* Footer */
@@ -610,7 +612,6 @@ input[type="button"] {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: row;
   }
 
   footer .contact {
@@ -781,6 +782,12 @@ input[type="button"] {
   .faq h2 {
     width: 100%;
     font-size: 3em;
+  }
+
+  .faq h4,
+  .faq p {
+    font-size: 1.125em;
+    line-height: 1;
   }
 }
 
