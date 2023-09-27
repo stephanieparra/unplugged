@@ -569,6 +569,10 @@ input[type="button"] {
     margin-bottom: 20px;
   }
 
+  .features .features-items {
+    align-items: flex-start;
+  }
+
   .features article {
     display: flex;
     align-items: center;
@@ -578,6 +582,10 @@ input[type="button"] {
 
   .features .features-item-description {
     width: 62%;
+  }
+
+  .features i {
+    margin-bottom: 30px;
   }
 
   /* Reviews */
@@ -599,7 +607,6 @@ input[type="button"] {
   .reviews h3 {
     width: 75%;
     margin: 0;
-    padding-left: 16px;
   }
 
   /* Footer */
